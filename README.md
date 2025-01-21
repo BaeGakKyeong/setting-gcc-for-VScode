@@ -24,8 +24,7 @@ https://sourceforge.net/projects/mingw/
 
 ## tasks.json / launch.json설정
 
-1. '.vscode'에서, 'tasks.json'파일을 만들어, 다음 내용을 복사해 붙여넣는다.
-https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/tasks.json
+1. '.vscode'에서, 'tasks.json'파일을 만들어, .[다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/tasks.json, "tasks.json")을 복사해 붙여넣는다.
 
 3. '.vscode'에서, 'launch.json'파일을 만들어, 다음 내용을 복사해 붙여넣는다.
 
