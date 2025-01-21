@@ -24,8 +24,21 @@ https://sourceforge.net/projects/mingw/
 
 ## tasks.json / launch.json설정
 
-1. '.vscode'에서, 'tasks.json'파일을 만들어, .[다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/tasks.json, "tasks.json")을 복사해 붙여넣는다.
+1. Visual Studio Code를 실행하여 원하는 폴더를 연다.
 
-3. '.vscode'에서, 'launch.json'파일을 만들어, .[다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/launch.json, "launch.json")을 복사해 붙여넣는다.
+2. '.vscode'파일에서, 'tasks.json'파일을 만들어, .[다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/tasks.json, "tasks.json")을 복사해 붙여넣는다.
 
+3. '.vscode'파일에서, 'launch.json'파일을 만들어, .[다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/launch.json, "launch.json")을 복사해 붙여넣는다.
+
+4. 'control + shift + b'로 빌드하여, 컴파일러가 동작하는지 확인한다.
+
+
+## 빌드된 실행파일 실행하기
+
+1. 'name.c' 파일을 빌드하여 'name.exe'파일이 생성됨을 확인한다.
+
+2. VScode 터미널에 "name.exe"(cmd가 아닌 Windows PowerShell을 사용하고 있다면, 대신 ".\name.exe"명령어를 입력할 것.)명령어를 입력하여, 실행파일이 실행됨을 확인한다.
+
+
+## 실행파일 실행 자동화
 
