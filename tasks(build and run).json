@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "group": {
                 "kind": "build",
@@ -20,9 +20,20 @@
             "windows": {
                 "command": "${fileDirname}\\${fileBasenameNoExtension}.exe"
             },
-            "runOptions": {
-                "runInBackground": false
-            }
+            "dependsOn": "build executable"
+        },
+        {
+            "label": "build executable",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "group": "build",
+            "problemMatcher": ["$gcc"]
         }
     ]
 }
