@@ -26,9 +26,9 @@ https://sourceforge.net/projects/mingw/
 
 1. Visual Studio Code를 실행하여 원하는 폴더를 연다.
 
-2. '.vscode'파일에서, 'tasks.json'파일을 만들어, .[다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/tasks.json, "tasks.json")을 복사해 붙여넣는다.
+2. '.vscode'파일에서, 'tasks.json'파일을 만들어, [다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/tasks.json, "tasks.json")을 복사해 붙여넣는다.
 
-3. '.vscode'파일에서, 'launch.json'파일을 만들어, .[다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/launch.json, "launch.json")을 복사해 붙여넣는다.
+3. '.vscode'파일에서, 'launch.json'파일을 만들어, [다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/launch.json, "launch.json")을 복사해 붙여넣는다.
 
 4. 'control + shift + b'로 빌드하여, 컴파일러가 동작하는지 확인한다.
 
@@ -42,3 +42,6 @@ https://sourceforge.net/projects/mingw/
 
 ## 실행파일 실행 자동화
 
+1. '.vscode'파일에서, 'tasks.json'파일을 열고, [다음 내용](https://github.com/BaeGakKyeong/setting-gcc-for-VScode/blob/main/launch(build%20and%20run).json, "tasks(build and run).json")을 복사해 붙여넣는다.
+
+2. 'control + shift + b'로 빌드하고 실행하여, 수정한 'tasks.json'파일이 제대로 동작하는지 확인한다.
